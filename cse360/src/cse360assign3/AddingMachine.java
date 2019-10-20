@@ -1,9 +1,23 @@
-package assign2;
+/*
+ * Author: Eric Branson
+ * Class: CSE360
+ * Assignment 3
+ * 
+ * AddingMachine
+ * Description:
+ * This class instantiates an AddingMachine object initialized with total 0;
+ * It tracks several mathematical operations and the values associated with
+ * them.  Every operation modifies the total and tracks the changes to be 
+ * returned later.
+ */
+
+
+package cse360assign3;
 
 public class AddingMachine {
 
-	private int total;
-	private String history = "0";
+	protected int total;
+	protected String history = "0";
 	
 	public AddingMachine () {
 		total = 0;  // not needed - included for clarity
